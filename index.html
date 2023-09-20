@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Harmoney Portfolio</title> 
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- old standard fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap" rel="stylesheet">
+    <!-- saira google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="/index.css">
+    
+</head>
+<body>
+      
+      <!-- NAVIGATION BAR -->
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" >
+        <div class="container">
+          <a class="navbar-brand" href="" style="color: rgb(5, 168, 118);font-weight: bold;font-family: 'Saira Condensed', sans-serif;font-size: 35px;"> HARMONEY</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: aliceblue;">
+            <span class="navbar-toggler-icon" style="color: aliceblue;"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto" style="color: aliceblue;">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#Home" style="color: aliceblue;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: aliceblue;">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: aliceblue;">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: aliceblue;">About</a>
+              </li>
+              <li class="nav-item" id="questions">
+                <a class="nav-link" href="#" style="color: aliceblue;">Questions</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- landing page -->
+      <section class="bg-dark text-light pt-5 ps-5 pe-5 text-center text-sm-start">
+        <div class="container">
+          <div class="d-sm-flex align-items-center justify-content-around">
+            <div>
+              <h1>
+                BECOME A <span style="color:rgb(5, 168, 118) ;">WEB DEVELOPER</span>
+              </h1>
+              <p class="lead">
+                We focus on teaching our student the fundamentals of <br> the latest and greatest technologies to prepare them  <br>for their first dev role.
+              </p>
+              <button class="btn btn-lg my-4" data-bs-toggle="modal" data-bs-target="#enroll" style="background-color: rgb(5, 168, 118); color: aliceblue;">
+                Start the Enrollment
+              </button>
+            </div>
+            <img src="/images/Untitled-1.png" alt="" class="img-fluid" style="width: 500px;height: 326px;object-fit: contain;">
+          </div>
+        </div>
+
+      </section>
+
+      <!-- News Letter -->
+      <section class=" text-light p-5" style="background-color: rgb(5, 168, 118);">
+        <div class="container">
+          <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">
+              Sign Up For Our Newsletter
+            </h3> 
+
+            <div class="input-group news-input">
+              <input type="text" class="form-control" placeholder="Enter your Email Address">
+              <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Submit</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- cards -->
+      <section class="p-5">
+        <div class="container">
+          <div class="row text-center g-3">
+            
+            <div class="col-md ">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <i class="bi bi-laptop"></i>
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Design & Creative
+                  </h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus placeat,
+                     error sunt voluptates similique fugiat.</p>
+                     <a href="" class="btn btn-dark" style="background-color: rgb(5, 168, 118);"> Read More</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md ">
+              <div class="card text-dark" style="background-color: rgb(202, 198, 198);">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <i class="bi bi-person-square"></i>
+                  </div>
+                  <h3 class="card-title mb-3" style="font-weight: bold;">
+                    Web & Mobile App
+                  </h3>
+                  <p class="card-text" style="font-weight: 500;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus placeat,
+                     error sunt voluptates similique fugiat.</p>
+                     <a href="" class="btn btn-dark border-0" style="background-color: rgb(5, 168, 118);"> Read More</a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md">
+              <div class="card bg-dark text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                    <i class="bi bi-people"></i>
+                  </div>
+                  <h3 class="card-title mb-3">
+                    Development
+                  </h3>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus placeat,
+                     error sunt voluptates similique fugiat.</p>
+                     <a href="" class="btn btn-dark" style="background-color: rgb(5, 168, 118);"> Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CSS -->
+      <section class="p-5">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+            <div class="col-md p-3">
+              <img src="/images/4866232.jpg" alt="" class="img-fluid" style="height: 350px; width: 100%; object-fit: cover;" >
+            </div>
+            <div class="col-md p-3">
+              <h2>
+                Learn <span style="color: rgb(5, 168, 118);font-weight: bold;">CSS</span>
+              </h2>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Magnam modi, earum iste odio libero excepturi.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, temporibus ipsa ea repellendus natus beatae nobis tempore provident facere voluptate,
+                 hic alias sequi voluptatum et excepturi repellat sed quasi sunt.
+              </p>
+              <a href="" class="btn btn-light mt-3" style="font-weight: bold;">
+                <i class="bi bi-chevron-right"></i>
+                Read More
+              </a>    
+            </div>
+           
+          </div>
+        </div>
+      </section>
+
+      <!-- BOOTSTRAP -->
+      <section class="p-5 bg-dark text-light">
+        <div class="container">
+          <div class="row justify-content-between align-items-center">
+           
+            <div class="col-md p-3">
+              <h2>
+                Learn <span style="color: rgb(5, 168, 118);font-weight: bold;">BOOTSTRAP</span>
+              </h2>
+              <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Magnam modi, earum iste odio libero excepturi.</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, temporibus ipsa ea repellendus natus beatae nobis tempore provident facere voluptate,
+                 hic alias sequi voluptatum et excepturi repellat sed quasi sunt.
+              </p>
+              <a href="" class="btn btn-light mt-3 fw-bold" >
+                <i class="bi bi-chevron-right"></i>
+                Read More
+              </a>   
+            </div>
+            <div class="col-md p-3">
+              <img src="/images/vector-1234567.png" alt="" class="img-fluid" style=" object-fit: cover;" >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Questions -->
+      <section id="questions" class="p-5">
+        <div class="container">
+          <h2 class="text-center mb-4">
+            Frequently Asked Questions
+          </h2>
+          <div class="accordion accordion-flush" id="Questions">
+            <!-- item one -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-one" >
+                  Where are you located ?
+                </button>
+              </h2>
+              <div id="question-one" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, tempore eos accusamus quasi sed facilis ipsum aspernatur neque aliquam excepturi est officiis harum esse dignissimos eius nihil! Ratione, nobis sed. Incidunt quasi maxime veritatis, sint beatae architecto, reiciendis nulla aut laudantium harum vero obcaecati iure sapiente enim recusandae, quisquam accusamus.</div>
+              </div>
+            </div>
+            <!-- item two -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-two" >
+                  How much does it cost to atttend your class ?
+                </button>
+              </h2>
+              <div id="question-two" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic distinctio provident mollitia tempora debitis atque cupiditate reiciendis cum, quibusdam natus rem? Quae eveniet assumenda asperiores adipisci, libero eum, dolor dolorem sit consectetur nam autem velit ipsam eaque pariatur voluptates alias? Inventore itaque molestiae perferendis qui ducimus ipsa mollitia eaque vitae.</div>
+              </div>
+            </div>
+            <!-- item three -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-three">
+                  What do i need to know ?
+                </button>
+              </h2>
+              <div id="question-three" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi repudiandae saepe fugiat doloremque sit iste tempore quo, ad quis maiores debitis, minima quas nulla numquam explicabo sapiente ut, labore odit tempora mollitia optio quam eos. Accusamus voluptas inventore explicabo aliquid sed repellat laudantium quam dolores qui voluptatem, ex, aperiam iste!</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- Instructor -->
+      <section class="p-5" style="background-color: rgb(5, 168, 118);">
+        <div class="container">
+          <h2 class="text-light text-center">
+            Our Instructors
+          </h2>
+          <p class="lead text-center text-light mb-3">
+            our instructors have 5 years working experience 
+          </p>
+          <div class="row g-4">
+
+            <div class="col-md-4 col-lg-4">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="https://randomuser.me/api/portraits/men/19.jpg" alt="" class="rounded-circle mb-3">
+                  <h3 class="card-title mb-3">
+                    James Bill
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Repellat doloribus ab eius, nam sapiente voluptatum.
+                  </p>
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-whatsapp text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4 col-lg-4">
+              <div class="card bg-dark">
+                <div class="card-body text-center text-light">
+                  <img src="/images/IMG_0568.JPG" alt="" class="rounded-circle mb-3 img-fluid" style="height: 128px;width: 120px;object-fit: cover;">
+                  <h3 class="card-title mb-3">
+                    Allen Harmoney
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellat doloribus ab eius, nam sapiente voluptatum.
+                  </p>
+                  <a href="#"><i class="bi bi-twitter text-light mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-light mx-1"></i></a>
+                  <a href="wa.link/wmp8ig"><i class="bi bi-whatsapp text-light mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-light mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-md-4 col-lg-4">
+              <div class="card bg-light">
+                <div class="card-body text-center">
+                  <img src="https://randomuser.me/api/portraits/women/8.jpg" alt="" class="rounded-circle mb-3">
+                  <h3 class="card-title mb-3">
+                    Mary Edeth
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Repellat doloribus ab eius, nam sapiente voluptatum.
+                  </p>
+                  <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-whatsapp text-dark mx-1"></i></a>
+                  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact -->
+      <section class="p-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md">
+              <h2 class="text-center mb-5">
+                Contact Info
+              </h2>
+              <ul class="list-group list-group-flush lead">
+                <li class="list-group-item">
+                  <span class="fw-bold"> Enrollment Email:</span>    allencitee20@gmail.com
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold"> Main Location:</span>    Ado-Ekiti, Ekiti State.
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold">Student Email:</span>    harmoney12@gmail.com
+                </li>
+                <li class="list-group-item">
+                  <span class="fw-bold"> Enrollment Phone number:</span>   +2348103614750
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer -->
+      <footer class="bg-dark text-center text-light p-5 position-relative"> 
+        <div class="container">
+          <p class="lead">
+            copyright &COPY; 2023 Harmoney
+          </p>
+          <a href="#" class="position-absolute p-5 bottom-0 end-0">
+            <i class="bi bi-arrow-up-circle h1" style="color: rgb(5, 168, 118);">
+
+            </i>
+          </a>
+        </div>
+      </footer> 
+
+        <!-- Modal -->
+      <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="enrollLabel" style="color: rgb(41, 131, 80);">Harmoney Academy</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">
+                  Fill out this form and we will get back to you
+                </p>
+                <form >
+
+                  <div class="mb-3">
+                    <label for="First-name" class="col-form-label">
+                      First name
+                    </label>
+                    <input type="text" class="form-control" id="first-name">
+                    </input>
+                  </div>
+                  <div class="mb-3">
+                    <label for="First-name" class="col-form-label">
+                      Last name
+                    </label>
+                    <input type="text" class="form-control" id="first-name">
+                    </input>
+                  </div>
+                  <div class="mb-3">
+                    <label for="First-name" class="col-form-label">
+                      Email 
+                    </label>
+                    <input type="text" class="form-control" id="first-name">
+                    </input>
+                  </div>
+                  <div class="mb-3">
+                    <label for="First-name" class="col-form-label">
+                      Phone
+                    </label>
+                    <input type="text" class="form-control" id="first-name">
+                    </input>
+                  </div>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn" style="background-color: rgb(5, 189, 133);">Submit</button>
+            </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- javascript link -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
